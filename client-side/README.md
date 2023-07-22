@@ -1,15 +1,9 @@
 ## Run Locally
 
-Clone the project if did not clone from server-side
+Create .env file, then copy .env-example file content to it, and start to add your values to .env file
 
 ```bash
-  git clone https://github.com/hossam9348
-```
-
-Go to the project directory
-
-```bash
-  cd client-side
+  cp .env.example .env
 ```
 
 Install dependencies
@@ -18,13 +12,12 @@ Install dependencies
   npm install
 ```
 
-Start the server, In the project directory, you can run:
+Start the server, you can run:
 
 ```bash
   npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 
 

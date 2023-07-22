@@ -71,7 +71,7 @@ export default function Practice() {
         <progress className='' style={{ width: "30rem", height: "2rem" }} value={progress} max="100"></progress>
         <div className='row justify-content-center gap-2'>
           <h3 className='col-2'> Progress:  {progress} %</h3>
-          <Button className="col-1" disabled={!isChosen} style={{ backgroundColor: "#000080" }} onClick={nextQuestion}>Next</Button>
+          <Button className="col-1 bg-dark" disabled={!isChosen} onClick={nextQuestion}>Next</Button>
         </div>
       </div>
     </div>

@@ -1,15 +1,9 @@
 ## Run Locally
 
-Clone the project if did not clone from client-side
+Create .env file, then copy .env-example file content to it, and start to add your values to .env file
 
 ```bash
-  git clone https://github.com/hossam9348/
-```
-
-Go to the project directory
-
-```bash
-  cd server-side
+  cp .env.example .env
 ```
 
 Install dependencies
