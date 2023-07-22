@@ -12,7 +12,7 @@ Install dependencies
   npm install
 ```
 
-Start the server, you can run:
+Start the server
 
 ```bash
   npm start
